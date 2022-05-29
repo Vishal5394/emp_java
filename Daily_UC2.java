@@ -10,7 +10,7 @@ public class Daily_UC2 {
 		int daily_wage = working_hr * Emp_wage_per_hr ;
 		
 		if ( emp_attendance == is_present )
-		System.out.println("Employee is Present & daily wage = " +daily_wage);
+		System.out.println("Employee is Present & working hr = "+ working_hr + " hr " + "  daily wage = " + daily_wage);
 		else
 			System.out.println("Employee is Absent");
 		
